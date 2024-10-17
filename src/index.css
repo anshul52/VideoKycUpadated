@@ -1,0 +1,83 @@
+/* VideoKYCUpload.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+video {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bg-boxBackground {
+  background-color: #007bff;
+}
+
+.hover\:bg-boxBackground:hover {
+  background-color: #0056b3;
+}
+
+.bg-customRed {
+  background-color: #dc3545;
+}
+
+.hover\:bg-customRed:hover {
+  background-color: #c82333;
+}
+
+.bg-customYellow {
+  background-color: #ffc107;
+}
+
+.hover\:bg-customYellow:hover {
+  background-color: #e0a800;
+}
+
+.bg-customGreen {
+  background-color: #28a745;
+}
+
+.hover\:bg-customGreen:hover {
+  background-color: #218838;
+}
+
+span {
+  color: red;
+}
+
+p.success {
+  color: green;
+}
